@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [main]
+    branches: [master]
 jobs:
   k6_performance-test:
     name: k6 performance test
